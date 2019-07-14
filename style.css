@@ -1,0 +1,25 @@
+a{
+    color: brown ;
+    text-decoration: wavy;
+}
+
+
+h1{
+    color: purple;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* # set style to specific ID*/
+#second{
+    color: orangered
+}
+
+/* . set style to class*/
+.link{
+    color: green
+}
+
+/* tag.class set style to tags that use class*/
+a.link{
+    color: green
+}
