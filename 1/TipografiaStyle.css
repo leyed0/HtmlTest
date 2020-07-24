@@ -1,0 +1,20 @@
+/*google fonts bem util*/
+
+h1{
+    color: orange;
+    letter-spacing: -2px;
+    text-transform: uppercase;
+    width: 650px;
+
+    /*size y, size x, desfoque, cor*/
+    text-shadow: 2px 2px 4px red;
+
+    font-style: oblique;
+}
+
+p{
+    font-family: Verdana, arial, sans-serif;
+    text-align: justify;
+    width: 650px;
+    font-size: 18px;
+}
