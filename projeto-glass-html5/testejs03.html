@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8"/>
+        <title>Teste JavaScript 2</title>
+        <script>
+            var quebrada=false;
+            function mudaLampada(tipo){
+                if(!(quebrada)){
+                    switch (tipo) {
+                        case 1:
+                            arquivo  = "_imagens/lampada-acesa.jpg"
+                            break;
+                        case 2:
+                            arquivo  = "_imagens/lampada-apagada.jpg";
+                            break;
+                        case 3:
+                            arquivo  = "_imagens/lampada-quebrada.jpg";
+                            quebrada=true;
+                            break;
+                    }
+                }
+                document.getElementById("luz").src = arquivo;
+            }
+        </script>
+    </head>
+    <body>
+        <h1>Acenda  a Lâmpada</h1>
+        <a id="lampada" href="#" onmouseout="mudaLampada(2)" onmouseover="mudaLampada(1)" onclick="mudaLampada(3)"><img id="luz" src="_imagens/lampada-apagada.jpg"/></a>
+    </body>
+</html>
